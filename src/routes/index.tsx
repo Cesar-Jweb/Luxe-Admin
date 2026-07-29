@@ -90,7 +90,7 @@ function Home() {
       <About />
       <Services />
       <Packages />
-      <Testimonials />
+      
       <Contact />
       <Footer />
     </div>
