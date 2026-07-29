@@ -401,7 +401,7 @@ function Packages() {
 
 function Testimonials() {
   return (
-    <section id="testimonials" className="bg-luxe py-24 lg:py-32">
+    <section id="testimonials" className="py-24 lg:py-32">
       <div className="mx-auto max-w-6xl px-6 lg:px-10">
         <div className="mx-auto max-w-2xl text-center">
           <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
