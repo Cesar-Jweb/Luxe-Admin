@@ -41,7 +41,7 @@ const services = [
   },
   {
     title: "Lifestyle Concierge",
-    desc: "Reservations, gifting, personal errands, and the invisible details that make a life feel effortless.",
+    desc: "Reservations, gifting, and the invisible details that make a life feel effortless.",
   },
   {
     title: "Bookkeeping Light",
@@ -306,7 +306,7 @@ function Services() {
           <hr className="gold-divider mx-auto mt-6" />
           <p className="mt-6 text-lg text-muted-foreground">
             A curated menu of administrative and lifestyle services — combined into a
-            partnership that fits the way you actually work.
+            partnership that fits the way you live and work.
           </p>
         </div>
 
