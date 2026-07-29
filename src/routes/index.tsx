@@ -194,7 +194,7 @@ function Hero() {
           </div>
           <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border/60 pt-8">
             {[
-              ["8+", "Years supporting execs"],
+              ["15+", "Years supporting execs"],
               ["120+", "Clients served"],
               ["24h", "Response window"],
             ].map(([n, l]) => (
