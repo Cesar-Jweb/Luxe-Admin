@@ -64,11 +64,11 @@ const packages = [
   },
   {
     name: "Signature",
-    price: "$2,750",
+    price: "$2,800",
     cadence: "/month",
     tagline: "The signature partnership — most requested",
     features: [
-      "40 hours of dedicated support",
+      "20 hours of dedicated support a week",
       "Everything in Essential",
       "Travel & event coordination",
       "Client communication",
