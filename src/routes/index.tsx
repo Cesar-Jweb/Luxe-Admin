@@ -80,26 +80,6 @@ const packages = [
 ];
 
 
-const testimonials = [
-  {
-    quote:
-      "Fabiola gave me back my mornings. Every calendar conflict, every travel change — handled before I even noticed.",
-    name: "Alexandra M.",
-    role: "Founder, Luxury Skincare Brand",
-  },
-  {
-    quote:
-      "Working with Fabiola feels like hiring a chief of staff, a concierge, and a best friend — all with the same quiet grace.",
-    name: "Daniel R.",
-    role: "Managing Partner",
-  },
-  {
-    quote:
-      "The polish she brings to every client email, every itinerary, every detail — it has genuinely elevated my business.",
-    name: "Priya S.",
-    role: "Interior Designer",
-  },
-];
 
 function Home() {
   return (
