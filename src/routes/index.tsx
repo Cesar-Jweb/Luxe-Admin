@@ -174,7 +174,7 @@ function Hero() {
             <span className="text-gold-gradient italic">effortlessly</span> orchestrated.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            I'm Fabiola — a discreet, meticulous administrative partner for founders,
+            I'm Fabiola, a discreet, meticulous administrative partner for founders,
             executives, and creative professionals who want their business (and their
             calendar) to feel as refined as their brand.
           </p>
@@ -195,7 +195,7 @@ function Hero() {
           <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border/60 pt-8">
             {[
               ["15+", "Years supporting execs"],
-              ["120+", "Clients served"],
+              ["50+", "Clients served"],
               ["24h", "Response window"],
             ].map(([n, l]) => (
               <div key={l}>
