@@ -216,14 +216,6 @@ function Hero() {
               className="h-full w-full object-cover"
             />
           </div>
-          <div className="absolute -bottom-6 -left-6 hidden max-w-[16rem] rounded-2xl border border-border/60 bg-card p-5 shadow-luxe md:block">
-            <p className="font-serif text-sm italic text-foreground">
-              "She anticipates before I ask. Truly indispensable."
-            </p>
-            <p className="mt-2 text-xs uppercase tracking-widest text-muted-foreground">
-              — Serial founder
-            </p>
-          </div>
         </div>
       </div>
     </section>
