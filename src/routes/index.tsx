@@ -339,7 +339,7 @@ function Packages() {
             Packages
           </span>
           <h2 className="mt-4 font-serif text-4xl text-foreground sm:text-5xl">
-            Investment in your ease.
+            Investing in your peace.
           </h2>
           <hr className="gold-divider mx-auto mt-6" />
         </div>
