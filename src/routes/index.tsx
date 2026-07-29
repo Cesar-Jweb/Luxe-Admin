@@ -70,8 +70,9 @@ const packages = [
     features: [
       "20 hours of dedicated support a week",
       "Everything in Essential",
-      "Travel & event coordination",
+      "Travel coordination",
       "Client communication",
+      "CRM Review",
       "Same-day response",
     ],
     featured: true,
