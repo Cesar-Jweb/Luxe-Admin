@@ -379,41 +379,6 @@ function Packages() {
   );
 }
 
-function Testimonials() {
-  return (
-    <section id="testimonials" className="py-24 lg:py-32">
-      <div className="mx-auto max-w-6xl px-6 lg:px-10">
-        <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
-            Kind words
-          </span>
-          <h2 className="mt-4 font-serif text-4xl text-foreground sm:text-5xl">
-            Trusted by founders who don't settle.
-          </h2>
-        </div>
-        <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3">
-          {testimonials.map((t) => (
-            <figure
-              key={t.name}
-              className="flex flex-col rounded-2xl border border-border/60 bg-card p-8 shadow-soft"
-            >
-              <span className="font-serif text-5xl leading-none text-gold-gradient">"</span>
-              <blockquote className="mt-4 flex-1 font-serif text-lg italic text-foreground">
-                {t.quote}
-              </blockquote>
-              <figcaption className="mt-6 border-t border-border/60 pt-4">
-                <p className="text-sm font-semibold text-foreground">{t.name}</p>
-                <p className="text-xs uppercase tracking-widest text-muted-foreground">
-                  {t.role}
-                </p>
-              </figcaption>
-            </figure>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function Contact() {
   return (
