@@ -52,11 +52,11 @@ const services = [
 const packages = [
   {
     name: "Essential",
-    price: "$1,450",
+    price: "$1,400",
     cadence: "/month",
     tagline: "Steady support for growing professionals",
     features: [
-      "20 hours of dedicated support",
+      "10 hours of dedicated support a week",
       "Inbox & calendar management",
       "Weekly priority briefings",
       "Business-hour response",
