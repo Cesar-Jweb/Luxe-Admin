@@ -255,25 +255,25 @@ function About() {
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 lg:grid-cols-5 lg:gap-20 lg:px-10">
         <div className="lg:col-span-2">
           <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
-            About Fabiola
+            ABOUT ME
           </span>
           <h2 className="mt-4 font-serif text-4xl leading-tight text-foreground sm:text-5xl">
-            A quiet kind of luxury — the one that shows up on time.
+            A quiet kind of luxury, the one that shows up on time.
           </h2>
         </div>
         <div className="space-y-6 text-lg leading-relaxed text-muted-foreground lg:col-span-3">
           <p>
-            After nearly a decade supporting C-suite leaders and creative founders, I built
+            After nearly a decade supporting C suite leaders and creative founders, I built
             Fabiola Estrada as a boutique administrative practice for people who value
             precision, warmth, and the kind of taste that can't be delegated to software.
           </p>
           <p>
-            Every partnership begins with listening — to your rhythms, your standards, and
+            Every partnership begins with listening, to your rhythms, your standards, and
             the way you want your business to feel to the people it touches. Then I build
             the invisible systems that make it look easy.
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
-            {["Discreet", "Detail-obsessed", "Bilingual (EN/ES)", "US & EU time zones"].map(
+            {["Discreet", "Detail obsessed", "Bilingual (EN/ES)", "US & EU time zones"].map(
               (chip) => (
                 <span
                   key={chip}
@@ -284,6 +284,7 @@ function About() {
               ),
             )}
           </div>
+
         </div>
       </div>
     </section>
