@@ -263,14 +263,15 @@ function About() {
         </div>
         <div className="space-y-6 text-lg leading-relaxed text-muted-foreground lg:col-span-3">
           <p>
-            After nearly a decade supporting C suite leaders and creative founders, I built
-            Fabiola Estrada as a boutique administrative practice for people who value
+            After nearly a decade supporting C suite leaders and creative founders, I built my
+            administrative practice for people who value
             precision, warmth, and the kind of taste that can't be delegated to software.
           </p>
           <p>
-            Every partnership begins with listening, to your rhythms, your standards, and
+            Every partnership begins with listening, to your vision, your standards, and
             the way you want your business to feel to the people it touches. Then I build
             the invisible systems that make it look easy.
+
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
             {["Discreet", "Detail obsessed", "Bilingual (EN/ES)", "US & EU time zones"].map(
