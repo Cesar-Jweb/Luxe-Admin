@@ -151,12 +151,6 @@ function Nav() {
             </a>
           ))}
         </div>
-        <a
-          href="#contact"
-          className="rounded-full bg-gold-gradient px-5 py-2.5 text-sm font-medium text-primary-foreground shadow-soft transition-all hover:opacity-90"
-        >
-          Work with me
-        </a>
       </nav>
     </header>
   );
