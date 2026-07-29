@@ -437,7 +437,7 @@ function Testimonials() {
 
 function Contact() {
   return (
-    <section id="contact" className="py-24 lg:py-32">
+    <section id="contact" className="bg-luxe py-24 lg:py-32">
       <div className="mx-auto max-w-4xl px-6 lg:px-10">
         <div className="relative overflow-hidden rounded-[2.5rem] border border-border/60 bg-card p-10 shadow-luxe md:p-16">
           <div className="absolute -top-24 -right-24 h-72 w-72 rounded-full bg-blush/50 blur-3xl" />
