@@ -76,20 +76,8 @@ const packages = [
     ],
     featured: true,
   },
-  {
-    name: "Bespoke",
-    price: "Custom",
-    cadence: "",
-    tagline: "Fully retained, white-glove executive care",
-    features: [
-      "Unlimited priority hours",
-      "Everything in Signature",
-      "Lifestyle & personal concierge",
-      "Vendor & project management",
-      "24/7 discreet availability",
-    ],
-  },
 ];
+
 
 const testimonials = [
   {
@@ -355,7 +343,7 @@ function Packages() {
           <hr className="gold-divider mx-auto mt-6" />
         </div>
 
-        <div className="mt-16 grid grid-cols-1 gap-6 lg:grid-cols-3">
+        <div className="mx-auto mt-16 grid grid-cols-1 gap-6 md:grid-cols-2 lg:max-w-4xl">
           {packages.map((p) => (
             <div
               key={p.name}
