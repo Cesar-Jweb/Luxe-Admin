@@ -174,9 +174,9 @@ function Hero() {
             <span className="text-gold-gradient italic">effortlessly</span> orchestrated.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
-            I'm Fabiola, a discreet, meticulous administrative partner for founders,
-            executives, and creative professionals who want their business (and their
-            calendar) to feel as refined as their brand.
+            I am Fabiola Estrada, your new virtual assistant. A discreet, meticulous
+            administrative partner for founders, executives, and creative professionals
+            who want their business (and their calendar) to feel as refined as their brand.
           </p>
           <div className="mt-9 flex flex-wrap items-center gap-4">
             <a
