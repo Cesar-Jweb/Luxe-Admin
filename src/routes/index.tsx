@@ -80,26 +80,6 @@ const packages = [
 ];
 
 
-const testimonials = [
-  {
-    quote:
-      "Fabiola gave me back my mornings. Every calendar conflict, every travel change — handled before I even noticed.",
-    name: "Alexandra M.",
-    role: "Founder, Luxury Skincare Brand",
-  },
-  {
-    quote:
-      "Working with Fabiola feels like hiring a chief of staff, a concierge, and a best friend — all with the same quiet grace.",
-    name: "Daniel R.",
-    role: "Managing Partner",
-  },
-  {
-    quote:
-      "The polish she brings to every client email, every itinerary, every detail — it has genuinely elevated my business.",
-    name: "Priya S.",
-    role: "Interior Designer",
-  },
-];
 
 function Home() {
   return (
@@ -110,7 +90,7 @@ function Home() {
       <About />
       <Services />
       <Packages />
-      <Testimonials />
+      
       <Contact />
       <Footer />
     </div>
@@ -399,41 +379,6 @@ function Packages() {
   );
 }
 
-function Testimonials() {
-  return (
-    <section id="testimonials" className="py-24 lg:py-32">
-      <div className="mx-auto max-w-6xl px-6 lg:px-10">
-        <div className="mx-auto max-w-2xl text-center">
-          <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
-            Kind words
-          </span>
-          <h2 className="mt-4 font-serif text-4xl text-foreground sm:text-5xl">
-            Trusted by founders who don't settle.
-          </h2>
-        </div>
-        <div className="mt-16 grid grid-cols-1 gap-6 md:grid-cols-3">
-          {testimonials.map((t) => (
-            <figure
-              key={t.name}
-              className="flex flex-col rounded-2xl border border-border/60 bg-card p-8 shadow-soft"
-            >
-              <span className="font-serif text-5xl leading-none text-gold-gradient">"</span>
-              <blockquote className="mt-4 flex-1 font-serif text-lg italic text-foreground">
-                {t.quote}
-              </blockquote>
-              <figcaption className="mt-6 border-t border-border/60 pt-4">
-                <p className="text-sm font-semibold text-foreground">{t.name}</p>
-                <p className="text-xs uppercase tracking-widest text-muted-foreground">
-                  {t.role}
-                </p>
-              </figcaption>
-            </figure>
-          ))}
-        </div>
-      </div>
-    </section>
-  );
-}
 
 function Contact() {
   return (
@@ -468,8 +413,6 @@ function Contact() {
             >
               <Field name="name" label="Full name" required />
               <Field name="email" label="Email" type="email" required />
-              <Field name="company" label="Company (optional)" />
-              <Field name="budget" label="Package of interest" />
               <div className="md:col-span-2">
                 <Field name="message" label="How can I help?" textarea required />
               </div>
