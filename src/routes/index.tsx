@@ -413,8 +413,6 @@ function Contact() {
             >
               <Field name="name" label="Full name" required />
               <Field name="email" label="Email" type="email" required />
-              <Field name="company" label="Company (optional)" />
-              <Field name="budget" label="Package of interest" />
               <div className="md:col-span-2">
                 <Field name="message" label="How can I help?" textarea required />
               </div>
