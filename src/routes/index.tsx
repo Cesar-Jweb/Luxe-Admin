@@ -395,8 +395,8 @@ function Contact() {
               Ready for a calmer, more polished business?
             </h2>
             <p className="mt-5 max-w-2xl text-lg text-muted-foreground">
-              Tell me a little about your world. I'll respond within one business day with
-              a quiet plan for how we can work together.
+              Tell me a little about your world. What keeps you up at night? What is the
+              most important thing to you? Let's think of a plan together.
             </p>
 
             <form
