@@ -243,7 +243,7 @@ function About() {
 
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
-            {["Discreet", "Detail obsessed", "Bilingual (EN/ES)", "US & EU time zones"].map(
+            {["Discreet", "Detail obsessed", "Bilingual (EN/ES)"].map(
               (chip) => (
                 <span
                   key={chip}
