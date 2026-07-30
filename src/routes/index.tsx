@@ -102,7 +102,7 @@ function Nav() {
     <header className="fixed top-0 z-50 w-full border-b border-border/40 bg-background/70 backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <a href="#top" className="flex items-baseline gap-2 !text-black">
-          <span className="font-serif text-2xl tracking-tight !text-black">Fabiola</span>
+          <span className="font-serif text-2xl italic !text-black">Fabiola</span>
           <span className="font-serif text-2xl italic !text-black">Estrada</span>
         </a>
         <div className="hidden items-center gap-9 md:flex">
@@ -464,8 +464,8 @@ function Footer() {
     <footer className="border-t border-border/60 bg-background py-12">
       <div className="mx-auto flex max-w-7xl flex-col items-center justify-between gap-6 px-6 md:flex-row lg:px-10">
         <div>
-          <p className="font-serif text-xl text-foreground">
-            Fabiola <span className="text-gold-gradient italic">Estrada</span>
+          <p className="font-serif text-xl italic !text-black">
+            Fabiola <span className="italic !text-black">Estrada</span>
           </p>
           <p className="mt-1 text-xs uppercase tracking-widest text-muted-foreground">
             Luxury Administrative Partnership
