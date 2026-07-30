@@ -154,12 +154,6 @@ function Hero() {
             >
               Book a discovery call
             </a>
-            <a
-              href="#services"
-              className="rounded-full border border-foreground/20 px-8 py-4 text-sm font-semibold uppercase tracking-widest text-foreground transition-colors hover:bg-foreground hover:text-background"
-            >
-              Explore services
-            </a>
           </div>
           <dl className="mt-12 grid max-w-md grid-cols-3 gap-6 border-t border-border/60 pt-8">
             {[
@@ -243,7 +237,7 @@ function About() {
 
           </p>
           <div className="flex flex-wrap gap-3 pt-2">
-            {["Discreet", "Detail obsessed", "Bilingual (EN/ES)"].map(
+            {["Discreet", "Detail Oriented", "Bilingual (EN/ES)"].map(
               (chip) => (
                 <span
                   key={chip}
