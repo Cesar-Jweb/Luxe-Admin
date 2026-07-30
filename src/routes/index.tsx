@@ -37,7 +37,7 @@ const services = [
   },
   {
     title: "Project Coordination",
-    desc: "Deadlines tracked, vendors managed, deliverables shipped — quietly, precisely, on time.",
+    desc: "Deadlines tracked, vendors managed, deliverables shipped precisely, on time.",
   },
   {
     title: "Lifestyle Concierge",
@@ -66,7 +66,7 @@ const packages = [
     name: "Signature",
     price: "$2,800",
     cadence: "/month",
-    tagline: "The signature partnership — most requested",
+    tagline: "The signature partnership, most requested",
     features: [
       "20 hours of dedicated support a week",
       "Everything in Essential",
@@ -268,7 +268,7 @@ function Services() {
           </h2>
           <hr className="gold-divider mx-auto mt-6" />
           <p className="mt-6 text-lg text-muted-foreground">
-            A curated menu of administrative and lifestyle services — combined into a
+            A curated menu of administrative and lifestyle services combined into a
             partnership that fits the way you live and work.
           </p>
         </div>
