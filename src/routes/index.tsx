@@ -400,9 +400,9 @@ function Contact() {
                 const data = new FormData(e.currentTarget);
                 const subject = encodeURIComponent("New inquiry — Fabiola Estrada");
                 const body = encodeURIComponent(
-                  `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nCompany: ${data.get("company")}\n\n${data.get("message")}`,
+                  `Name: ${data.get("name")}\nEmail: ${data.get("email")}\n\n${data.get("message")}`,
                 );
-                window.location.href = `mailto:hello@fabiolaestrada.com?subject=${subject}&body=${body}`;
+                window.location.href = `mailto:fabiestradaAA@gmail.com?subject=${subject}&body=${body}`;
               }}
             >
               <Field name="name" label="Full name" required />
