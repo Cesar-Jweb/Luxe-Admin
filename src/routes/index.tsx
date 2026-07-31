@@ -402,7 +402,7 @@ function Contact() {
                 const body = encodeURIComponent(
                   `Name: ${data.get("name")}\nEmail: ${data.get("email")}\nCompany: ${data.get("company")}\n\n${data.get("message")}`,
                 );
-                window.location.href = `mailto:hello@fabiolaestrada.com?subject=${subject}&body=${body}`;
+                window.location.href = `mailto:fabiestradaAA@gmail.com?subject=${subject}&body=${body}`;
               }}
             >
               <Field name="name" label="Full name" required />
