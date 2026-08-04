@@ -195,10 +195,10 @@ function Marquee() {
   ];
   return (
     <div className="border-y border-border/50 bg-background/60">
-      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-10 gap-y-3 px-6 py-6 lg:px-10">
+      <div className="mx-auto flex max-w-7xl flex-wrap items-center justify-center gap-x-5 gap-y-2 px-6 py-6 sm:gap-x-8 lg:px-10">
         {items.map((i, idx) => (
-          <div key={i} className="flex items-center gap-10">
-            <span className="text-xs font-medium uppercase tracking-[0.3em] text-muted-foreground">
+          <div key={i} className="flex items-center gap-5 sm:gap-8">
+            <span className="text-[10px] font-medium uppercase tracking-[0.18em] text-muted-foreground sm:text-[11px] sm:tracking-[0.25em]">
               {i}
             </span>
             {idx < items.length - 1 && (
