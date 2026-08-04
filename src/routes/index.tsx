@@ -44,7 +44,7 @@ const services = [
     desc: "Reservations, gifting, and the invisible details that make a life feel effortless.",
   },
   {
-    title: "Bookkeeping Light",
+    title: "Bookkeeping",
     desc: "Expense tracking, invoicing, and receipts organized so tax season is never a scramble.",
   },
 ];
@@ -102,8 +102,8 @@ function Nav() {
     <header className="fixed top-0 z-50 w-full border-b border-border/40 bg-background/70 backdrop-blur-md">
       <nav className="mx-auto flex max-w-7xl items-center justify-between px-6 py-4 lg:px-10">
         <a href="#top" className="flex items-baseline gap-2 !text-black">
-          <span className="font-serif text-2xl italic !text-black">Fabi</span>
-          <span className="font-serif text-2xl italic !text-black">Estrada</span>
+          <span className="font-serif text-3xl italic !text-black sm:text-4xl">Fabi</span>
+          <span className="font-serif text-3xl italic !text-black sm:text-4xl">Estrada</span>
         </a>
         <div className="hidden items-center gap-9 md:flex">
           {[
