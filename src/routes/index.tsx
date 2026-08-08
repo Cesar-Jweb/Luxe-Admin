@@ -136,7 +136,7 @@ function Hero() {
         <div>
           <span className="inline-flex items-center gap-2 rounded-full border border-gold/40 bg-white/60 px-4 py-1.5 text-xs font-medium uppercase tracking-[0.2em] text-foreground/70 backdrop-blur">
             <span className="h-1.5 w-1.5 rounded-full bg-gold-gradient" />
-            Luxury Virtual Assistant
+            Virtual Assistant
           </span>
           <h1 className="mt-6 font-serif text-5xl leading-[1.05] text-foreground sm:text-6xl lg:text-7xl">
             Your days,{" "}
