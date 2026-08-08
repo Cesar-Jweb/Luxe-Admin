@@ -140,7 +140,7 @@ function Hero() {
           </span>
           <h1 className="mt-6 font-serif text-5xl leading-[1.05] text-foreground sm:text-6xl lg:text-7xl">
             Your days,{" "}
-            <span className="text-gold-gradient italic">effortlessly</span> orchestrated.
+             <span className="text-gold-gradient italic">effortlessly</span> planned.
           </h1>
           <p className="mt-6 max-w-xl text-lg leading-relaxed text-muted-foreground">
             I am Fabiola Estrada, your new virtual assistant. I am a discreet, meticulous
