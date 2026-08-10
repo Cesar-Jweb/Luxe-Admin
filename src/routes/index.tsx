@@ -217,6 +217,16 @@ function About() {
     <section id="about" className="relative py-24 lg:py-32">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 lg:grid-cols-5 lg:gap-20 lg:px-10">
         <div className="lg:col-span-2">
+          <div className="mb-8 overflow-hidden rounded-[1.75rem] border border-border/60 bg-secondary/30 shadow-soft">
+            <img
+              src={portraitAsset.url}
+              alt="Fabiola Estrada smiling in a bright café"
+              width={1179}
+              height={2431}
+              loading="lazy"
+              className="aspect-[4/5] w-full object-cover object-[center_38%]"
+            />
+          </div>
           <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
             ABOUT ME
           </span>
