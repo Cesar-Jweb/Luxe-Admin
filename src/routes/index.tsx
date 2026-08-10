@@ -1,6 +1,7 @@
 import { createFileRoute } from "@tanstack/react-router";
 import heroImg from "@/assets/hero-desk.jpg";
 import servicesImg from "@/assets/services-flatlay.jpg";
+import portraitAsset from "@/assets/fabi-portrait.jpg.asset.json";
 
 const TITLE = "Fabiola Estrada — Luxury Virtual Administrative Assistant";
 const DESCRIPTION =
