@@ -215,9 +215,9 @@ function Marquee() {
 function About() {
   return (
     <section id="about" className="relative py-24 lg:py-32">
-      <div className="mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 lg:grid-cols-5 lg:gap-20 lg:px-10">
-        <div className="lg:col-span-2">
-          <div className="mx-auto mb-8 w-full max-w-[18rem] overflow-hidden rounded-[1.75rem] border border-border/60 bg-secondary/30 shadow-soft">
+      <div className="mx-auto grid max-w-7xl grid-cols-1 gap-14 px-6 md:grid-cols-2 md:gap-14 lg:gap-20 lg:px-10">
+        <div>
+          <div className="mx-auto w-full max-w-[28rem] overflow-hidden rounded-[1.75rem] border border-border/60 bg-secondary/30 shadow-soft">
             <img
               src={portraitAsset.url}
               alt="Fabiola Estrada smiling in a bright café"
@@ -227,26 +227,27 @@ function About() {
               className="aspect-[4/5] w-full object-cover object-[center_38%]"
             />
           </div>
-          <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
-            ABOUT ME
-          </span>
-          <h2 className="mt-4 font-serif text-4xl leading-tight text-foreground sm:text-5xl">
-            A quiet kind of luxury, the one that shows up on time.
-          </h2>
         </div>
-        <div className="space-y-6 text-center text-lg leading-relaxed text-muted-foreground lg:col-span-3">
-           <p>
-             After nearly a decade supporting C suite leaders and creative founders, I built my
-             administrative practice for people who value
-             precision, warmth, and the kind of taste that can't be delegated to software.
-           </p>
-           <p>
-             Every partnership begins with listening, to your vision, your standards, and
-             the way you want your business to feel to the people it touches. Then I build
-             the invisible systems that make it look easy.
- 
-           </p>
-           <div className="flex flex-wrap justify-center gap-3 pt-2">
+        <div className="space-y-6 text-center text-lg leading-relaxed text-muted-foreground">
+          <div>
+            <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
+              ABOUT ME
+            </span>
+            <h2 className="mt-4 font-serif text-4xl leading-tight text-foreground sm:text-5xl">
+              A quiet kind of luxury, the one that shows up on time.
+            </h2>
+          </div>
+          <p>
+            After nearly a decade supporting C suite leaders and creative founders, I built my
+            administrative practice for people who value
+            precision, warmth, and the kind of taste that can't be delegated to software.
+          </p>
+          <p>
+            Every partnership begins with listening, to your vision, your standards, and
+            the way you want your business to feel to the people it touches. Then I build
+            the invisible systems that make it look easy.
+          </p>
+          <div className="flex flex-wrap justify-center gap-3 pt-2">
             {["Discreet", "Detail Oriented", "Bilingual (EN/ES)"].map(
               (chip) => (
                 <span
@@ -258,7 +259,6 @@ function About() {
               ),
             )}
           </div>
-
         </div>
       </div>
     </section>
