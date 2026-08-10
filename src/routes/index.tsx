@@ -228,7 +228,7 @@ function About() {
             />
           </div>
         </div>
-        <div className="space-y-6 text-center text-lg leading-relaxed text-muted-foreground lg:col-span-3">
+        <div className="space-y-6 text-center text-lg leading-relaxed text-muted-foreground">
           <div>
             <span className="text-xs font-semibold uppercase tracking-[0.3em] text-gold-gradient">
               ABOUT ME
