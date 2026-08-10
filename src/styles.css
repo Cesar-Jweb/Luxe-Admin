@@ -91,7 +91,7 @@
     -webkit-font-smoothing: antialiased;
   }
   img {
-    border: 1px solid var(--gold);
+    border: 2px solid var(--gold);
   }
   h1, h2, h3, h4 {
     font-family: var(--font-serif);
