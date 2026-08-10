@@ -234,19 +234,19 @@ function About() {
             A quiet kind of luxury, the one that shows up on time.
           </h2>
         </div>
-        <div className="space-y-6 text-lg leading-relaxed text-muted-foreground lg:col-span-3">
-          <p>
-            After nearly a decade supporting C suite leaders and creative founders, I built my
-            administrative practice for people who value
-            precision, warmth, and the kind of taste that can't be delegated to software.
-          </p>
-          <p>
-            Every partnership begins with listening, to your vision, your standards, and
-            the way you want your business to feel to the people it touches. Then I build
-            the invisible systems that make it look easy.
-
-          </p>
-          <div className="flex flex-wrap gap-3 pt-2">
+        <div className="space-y-6 text-center text-lg leading-relaxed text-muted-foreground lg:col-span-3">
+           <p>
+             After nearly a decade supporting C suite leaders and creative founders, I built my
+             administrative practice for people who value
+             precision, warmth, and the kind of taste that can't be delegated to software.
+           </p>
+           <p>
+             Every partnership begins with listening, to your vision, your standards, and
+             the way you want your business to feel to the people it touches. Then I build
+             the invisible systems that make it look easy.
+ 
+           </p>
+           <div className="flex flex-wrap justify-center gap-3 pt-2">
             {["Discreet", "Detail Oriented", "Bilingual (EN/ES)"].map(
               (chip) => (
                 <span
