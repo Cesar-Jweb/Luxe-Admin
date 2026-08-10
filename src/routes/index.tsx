@@ -217,7 +217,7 @@ function About() {
     <section id="about" className="relative py-24 lg:py-32">
       <div className="mx-auto grid max-w-6xl grid-cols-1 gap-14 px-6 lg:grid-cols-5 lg:gap-20 lg:px-10">
         <div className="lg:col-span-2">
-          <div className="mb-8 overflow-hidden rounded-[1.75rem] border border-border/60 bg-secondary/30 shadow-soft">
+          <div className="mx-auto mb-8 w-full max-w-[18rem] overflow-hidden rounded-[1.75rem] border border-border/60 bg-secondary/30 shadow-soft">
             <img
               src={portraitAsset.url}
               alt="Fabiola Estrada smiling in a bright café"
