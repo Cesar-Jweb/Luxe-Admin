@@ -91,7 +91,10 @@
     -webkit-font-smoothing: antialiased;
   }
   img {
-    border: 2px solid var(--gold);
+    display: block;
+    width: 100%;
+    border: 4px solid var(--gold);
+    border-radius: inherit;
   }
   h1, h2, h3, h4 {
     font-family: var(--font-serif);
